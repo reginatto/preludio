@@ -1,0 +1,7 @@
+<queue-entries>
+	<queue>
+		<name>events</name>
+		<rate>5/s</rate>
+		<max-concurrent-requests>10</max-concurrent-requests>
+	</queue>
+</queue-entries>

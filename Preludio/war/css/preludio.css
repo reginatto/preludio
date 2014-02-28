@@ -1,0 +1,102 @@
+.my-nav-bar {
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #d4d4d4;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.my-nav-bar-home {
+  background-color: #F7F7F7;
+  border-bottom: 1px solid #d4d4d4;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.answer-points-well {
+  height: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+}
+
+.answer-votechevron-well {
+  text-align: center;
+  background-color: #757575;
+  border: 1px solid #656565;
+}
+
+.answer-votechevron-well2 {
+  text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+}
+
+.my-well {
+  min-height: 20px;
+  padding: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.progress-small {
+  height: 5px;
+  margin-bottom: 2px;
+}
+
+.badge-points {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.my-block-level {
+  display: block;
+  width: 100%;
+}
+
+.input-large-font {
+  *margin-left: .3em;
+  margin-top: 4px;
+  margin-bottom: 5px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  padding: 5px 5px !important;
+  font-size: 24px !important;
+}
+
+.input-x2large {
+  width: 350px;
+}
+
+label.valid {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+
+.home-banner-white {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.home-banner-grey {
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

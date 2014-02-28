@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+
+	<datastore-index kind="Event" ancestor="false" source="manual">
+		<property name="type" direction="asc"/>
+		<property name="docType" direction="asc"/>
+		<property name="object" direction="asc"/>
+		<property name="user" direction="asc"/>
+		<property name="timestamp" direction="asc"/>
+	</datastore-index>
+
+	<datastore-index kind="Event" ancestor="false" source="manual">
+		<property name="user" direction="asc"/>
+		<property name="timestamp" direction="asc"/>
+	</datastore-index>
+
+	<datastore-index kind="Event" ancestor="false" source="manual">
+		<property name="object" direction="asc"/>
+		<property name="timestamp" direction="asc"/>
+	</datastore-index>
+
+	<datastore-index kind="Event" ancestor="false" source="manual">
+		<property name="docType" direction="asc"/>
+		<property name="type" direction="asc"/>
+		<property name="timestamp" direction="asc"/>
+	</datastore-index>
+
+	<datastore-index kind="Event" ancestor="false" source="manual">
+		<property name="docType" direction="asc"/>
+		<property name="timestamp" direction="asc"/>
+	</datastore-index>
+
+</datastore-indexes>
