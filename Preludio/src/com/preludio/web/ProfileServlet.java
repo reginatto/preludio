@@ -145,7 +145,7 @@ public class ProfileServlet extends BaseServlet {
 		BlobstoreService blobstoreService = BlobstoreServiceFactory.getBlobstoreService();
 		Map<String, List<BlobKey>> blobs = blobstoreService.getUploads(req);
 		List<BlobKey> listOfBlobs = blobs.get(Profile.IMAGE);
-		if (!listOfBlobs.isEmpty()) {
+		if ((listOfBlobs != null) && (!listOfBlobs.isEmpty())) {
 			BlobKey blobKey = listOfBlobs.get(0);
 			if (blobKey != null) {
 				BlobInfo blobInfo = new BlobInfoFactory().loadBlobInfo(blobKey);
